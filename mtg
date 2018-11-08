@@ -1,0 +1,11 @@
+def condicional_2():
+    edad=input("cual es tu edad xd?")
+    if(edad>=18):
+        print "sala de magic avanzado nivel cara mínima"
+    else:
+        if(edad>=15):
+            print "sala de magic intermedia nivel coloso mínimo"
+        else:
+            print "sala de reclutamiento con el humillado"
+
+condicional_2()

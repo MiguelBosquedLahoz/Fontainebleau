@@ -1,0 +1,12 @@
+def bucle_8():
+    print "*******************************************"
+    print "* EL GENERAL DEL CAMPO DE CONCENTRACIÓN *"
+    print "*******************************************"
+    print "Indica el numero de judios asesinados hoy. "
+    altura=input("altura= ")
+    for fil in range(4,altura-1):
+        for col in range(4,fil-1):
+            print "*",
+        print " "
+
+bucle_8()

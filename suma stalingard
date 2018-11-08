@@ -1,0 +1,17 @@
+def bucle_11():
+    print "* NAZIS O SOVIETICOS *"
+    print "Cuantos soldados murieron en Stalingrado "
+    nfinal=input("numero = ")
+    for numero in range(1,nfinal+1):
+        if(numero%2==0):
+            print str(numero)," es NAZI"
+            numero_pares_numero_pares+1
+            suma_pares=suma_pares+numero
+        else:
+            print str(numero)," es SOVIETICO"
+            numero_impares=numero_impares+1
+            suma_impares=suma_impares+numero
+            
+    print "Murieron en total",suma_pares
+    print "Murieron en total",suma_impares
+bucle_11()

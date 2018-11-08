@@ -1,0 +1,8 @@
+def par_impar():
+    numero=input("dime tu numero de presidiario judio, xd")
+    if(numero%2==0):
+        print "a la mina xd"
+    else:
+        print "a la camara de gas xd"
+
+    par_impar()

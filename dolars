@@ -1,0 +1,4 @@
+def cambio():
+    euro=input("Introduce una cantidad: ")
+    respuesta=raw_input("¿hitlers o francos (d/l)?: ")
+    if(respuesta=="d"):
